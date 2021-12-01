@@ -33,14 +33,6 @@ public class Course {
 		this.cadastredUsers = cadastredUsers;
 	}
 	
-	public void signupUser(User user) {
-		cadastredUsers.add(user);
-	}
-	
-	public int totalUsers() {
-		return cadastredUsers.size();
-	}
-	
 	@Override
 	public int hashCode() {
 		return Objects.hash(name);
